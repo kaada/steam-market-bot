@@ -1,5 +1,5 @@
-High-frequency trading of items on the Steam Community Market (http://steamcommunity.com/market/),
-a market for virtual items made for the Steam platform.
+**High-frequency trading of items on the Steam Community Market (http://steamcommunity.com/market/),
+a market for virtual items made for the Steam platform.**
 
 splinter is needed for the software to run, and can be downloaded at: https://pypi.python.org/pypi/splinter,
 or by using the command '[sudo] pip install splinter.'
