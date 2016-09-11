@@ -202,12 +202,9 @@ class Market_bot():
 
         g_sessionID = self.G_SESSIONID
         g_rgWalletInfo_wallet_currency = 3 #currency is euro
-        
         g_rgListingInfo = re.findall((r'"{0}"\:\{(.*)\}').format(listingid), page_html)
-        
         m_nSubtotal = re.findall(r'"converted_price"\:(.*),', g_rgListingInfo)
-                m_nFeeAmount = re.findall(r'"converted_fee"\:(.*),', g_rgListingInfo)
-
+        m_nFeeAmount = re.findall(r'"converted_fee"\:(.*),', g_rgListingInfo)
         m_nTotal = int(m_nSubtotal) + int(m_nFeeAmount)
 
         d = {
