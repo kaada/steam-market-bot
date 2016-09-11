@@ -5,7 +5,7 @@
 steam_market_bot.py
 Olav Kaada, 2012
 
-High-frequency trading of items on the Steam community market (http://steamcommunity.com/market/),
+High-frequency trading of items on the Steam Community Market (http://steamcommunity.com/market/),
 a market for virtual items made for the Steam platform.
 
 splinter is needed for the software to run, and can be downloaded at: https://pypi.python.org/pypi/splinter,
