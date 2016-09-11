@@ -1,3 +1,5 @@
+Olav Kaada, 2012
+
 **High-frequency trading of items on the Steam Community Market (http://steamcommunity.com/market/),
 a market for virtual items made for the Steam platform.**
 
