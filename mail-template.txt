@@ -1,0 +1,13 @@
+STATUS UPDATE FOR THE STEAM MARKET BOT
+The bot was started at {0}
+
+Time since the bot was started: {1:.0f} hours and {2:.0f} minutes
+Number of successful loops: {3}
+Highest percent off found since last mail: {4:.2f}
+Total amount of items found: {5}
+
+Items found since last mail:
+{6}
+
+New item prices:
+{7}
