@@ -20,15 +20,15 @@ UPDATE: No longer puts the items back into the market (at market price) automati
 UPDATE 2: This program is no longer under active developement, and is for this reason out-of-date. It is most likely still functional, but use with great care.
 """
 
+import sys
+import random
 import httplib2
 import socket
 import time
 from time import sleep, localtime, strftime
-from splinter import Browser
-import random
-import mail_self
 import datetime
-import sys
+from splinter import Browser
+import mail_self
 
 MARKET_BASE_URL = 'http://steamcommunity.com/market/'
 MIN_SLEEP_TIME_IN_SECONDS = 3 # Please be a 'good' internet citizen
