@@ -9,7 +9,7 @@ High-frequency trading of items on the Steam Community Market (http://steamcommu
 a market for virtual items made for the Steam platform.
 
 splinter is needed for the software to run, and can be downloaded at: https://pypi.python.org/pypi/splinter,
-or by using the command '[sudo] pip install splinter.'
+or by using the command 'pip install splinter.'
 
 Other files needed:
 mail_self.py
@@ -194,7 +194,7 @@ class Market_bot():
 
     def fetch_buy_info(self, page_html, listingid):
         """Returning the info needed to perform the transaction.
-                Parcing HTML is BAD (!), but in this case it is the only way, as there are no APIs as of this date.
+        Parcing HTML is BAD (!), but in this case it is the only way, as there are no APIs as of this date.
 
         Keyword arguments:
         page_html -- The whole HTML delivered as a string.
