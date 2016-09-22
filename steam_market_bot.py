@@ -41,7 +41,7 @@ class Item:
 
         Keyword arguments:
         name -- the name of the item, in clear text.
-        percent_off_to_buy -- Minimum percent off the normal price, before the bot purchases the item."""
+        percent_off_to_buy -- Minimum percent off the normal price, for the bot to purchase the item."""
 
         self.name = name
         self.percent_off_to_buy = percent_off_to_buy
