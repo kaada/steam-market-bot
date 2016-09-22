@@ -98,7 +98,7 @@ class Market_bot():
 
         socket.setdefaulttimeout(5) # Setting the global socket timeout to 5 sec. This is done to prevent the program from getting stuck while waiting for a http response.
 
-        # Declaring the items. Should be moved to another file, but cba.
+        # Declaring some random items. Should be moved to another file, but cba.
         self.items = (Item('Treasure Key', 30),
                  Item('Golden Greevil', 30),
                  Item('Vintage Timebreaker', 30),
