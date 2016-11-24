@@ -283,11 +283,11 @@ def get_page_source(http, item_name):
     item_name -- Item name of that given item."""
 
     cookies = 'steamLogin=COOKIE; steamRememberLogin=COOKIE' # add your own cookies
-
+    
+    url = MARKET_BASE_URL
+    
     if item_name:
-        url = MARKET_BASE_URL+'listings/570/{0}'.format(item_name.replace('%', '%25').replace(' ', '%20').replace('(', '%28').replace(')', '%29'))
-    else:
-        url = MARKET_BASE_URL
+        url += 'listings/570/{0}'.format(item_name.replace('%', '%25').replace(' ', '%20').replace('(', '%28').replace(')', '%29'))
 
     try:
         resp, content = http.request(url, headers={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31',
